@@ -34,7 +34,16 @@ Many of the steps below reference the "console", "terminal", "command window", o
 # Set up virtualenv and install Django {#virtualenv}
 {% include "/django_installation/instructions.md" %}
 
+
 # Install Git {#git}
+When you start programing you will need something to keep track of changes and allow you to make backups.
+Git and its versions (GitHub, GitLab, BitBucket) is one of the most popular.  
+**BUT,** we are going to skip this step and run everything from PythonAnywhere.
+
+## Why skip Git
+We are skipping it because we just want to focus on Django and Python.  It adds an extra complication. 
+
+## What is Git
 {% include "/deploy/install_git.md" %}
 
 # Create a GitHub account {#github-account}

@@ -5,6 +5,15 @@ tutorial](http://django-marcador.keimlink.de/) licensed under the Creative Commo
 Attribution-ShareAlike 4.0 International License. The django-marcador tutorial
 is copyrighted by Markus Zapke-Gründemann et al.
 
+## PythonAnywhere
+We are going to be building our Django Website directly on [PythonAnywhere](https://www.pythonanywhere.com/).
+You can follow along on your own computer, push to GitHub and then pull to PythonAnywhere.  
+
+This  work flow is what the most programmers follow.  But, you can do everything in PythonAnywhere AND all of our steps area 
+already saved in this tutorial so you can go back anytime and re-build your site!
+
+PythonAnywhere is Linux based.  So we will follow the Linux instructions.
+
 
 ## Virtual environment
 
@@ -16,13 +25,25 @@ All you need to do is find a directory in which you want to create the `virtuale
 
 > __NOTE:__ On Windows, make sure that this directory does not contain accented or special characters; if your username contains accented characters, use a different directory, for example, `C:\djangogirls`.
 
-For this tutorial we will be using a new directory `djangogirls` from your home directory:
+For this tutorial we will be using your PythonAnywhere home directory, but if you are doing this on your computer create a clean directory by :
 
 {% filename %}command-line{% endfilename %}
+
+### If on your computer
 ```
 $ mkdir djangogirls
 $ cd djangogirls
 ```
+
+### If working out of PythonAnywhere:
+We will be working from your PythonAnywhere's HOME directory.
+PythonAnywhere want virtual environments to be in a .virtualenv folder.
+Create a .virtualenv folder
+```
+$ mkdir .virtualenv
+$ cd .virtualent
+```
+
 
 We will make a virtualenv called `myvenv`. The general command will be in the format:
 
@@ -30,6 +51,7 @@ We will make a virtualenv called `myvenv`. The general command will be in the fo
 ```
 $ python3 -m venv myvenv
 ```
+
 
 <!--sec data-title="Virtual environment: Windows" data-id="virtualenv_installation_windows"
 data-collapse=true ces-->
@@ -106,7 +128,8 @@ $ python3 -m venv myvenv
 
 ## Working with virtualenv
 
-The command above will create a directory called `myvenv` (or whatever name you chose) that contains our virtual environment (basically a bunch of directories and files).
+The command above will create a directory called `myvenv` (or whatever name you chose) that contains our 
+virtual environment (basically a bunch of directories and files).
 
 <!--sec data-title="Working with virtualenv: Windows" data-id="virtualenv_windows"
 data-collapse=true ces-->
@@ -136,6 +159,7 @@ C:\Users\Name\djangogirls> myvenv\Scripts\activate
 >```
 >The advantage is that you don't have to switch between editor windows and command-line windows
 
+
 <!--endsec-->
 
 <!--sec data-title="Working with virtualenv: Linux and OS X" data-id="virtualenv_linuxosx"
@@ -147,6 +171,8 @@ Start your virtual environment by running:
 ```
 $ source myvenv/bin/activate
 ```
+
+Note: (myenv) will now appear one each terminal command line.
 
 Remember to replace `myvenv` with your chosen `virtualenv` name!
 
@@ -165,6 +191,8 @@ When working within a virtual environment, `python` will automatically refer to 
 
 OK, we have all important dependencies in place. We can finally install Django!
 
+```bash```
+
 ## Installing Django {#django}
 
 Now that you have your `virtualenv` started, you can install Django.
@@ -179,9 +207,12 @@ Before we do that, we should make sure we have the latest version of `pip`, the 
 ### Installing packages with requirements
 
 A requirements file keeps a list of dependencies to be installed using
-`pip install`:
+`pip install`:.   Think of it as the recipe file.
 
-First create a `requirements.txt` file inside of the `djangogirls/` folder, using the code editor that you installed earlier. You do this by opening a new file in the code editor and then saving it as `requirements.txt` in the `djangogirls/` folder. Your directory will look like this:
+**First:** Create a `requirements.txt` file inside of the `djangogirls/` folder, 
+using the code editor that you installed earlier. 
+You do this by opening a new file in the code editor and then saving it 
+as `requirements.txt` in the `djangogirls/` folder. Your directory will look like this:
 
 ```
 djangogirls
@@ -190,14 +221,15 @@ djangogirls
 └───requirements.txt
 ```
 
-In your `djangogirls/requirements.txt` file you should add the following text:
+**Second:** Add the following in your `djangogirls/requirements.txt` file:
 
 {% filename %}djangogirls/requirements.txt{% endfilename %}
 ```
 Django~={{ book.django_version }}
 ```
 
-Now, run `pip install -r requirements.txt` to install Django.
+
+**Lastly:** Run the requirements.txt by typing `pip install -r requirements.txt` to install Django.
 
 {% filename %}command-line{% endfilename %}
 ```

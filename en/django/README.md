@@ -24,4 +24,5 @@ In the *view* function, all the interesting things are done: we can look at a da
 
 The description above is a little bit simplified, but you don't need to know all the technical things yet. Having a general idea is enough.
 
-So instead of diving too much into details, we will start creating something with Django and we will learn all the important parts along the way!
+So instead of diving too much into details, we will start creating something with Django and we will learn all the 
+important parts along the way!

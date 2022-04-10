@@ -85,7 +85,7 @@ In `settings.py`, find the line that contains `TIME_ZONE` and modify it to choos
 
 {% filename %}mysite/settings.py{% endfilename %}
 ```python
-TIME_ZONE = 'Europe/Berlin'
+TIME_ZONE = 'America/New_York'
 ```
 
 A language code consist of the language, e.g. `en` for English or `de` for German, and the country code, e.g. `de` for Germany or `ch` for Switzerland. If English is not your native language, you can add this to change the default buttons and notifications from Django to be in your language. So you would have "Cancel" button translated into the language you defined here. [Django comes with a lot of prepared translations](https://docs.djangoproject.com/en/3.2/ref/settings/#language-code).
@@ -94,11 +94,13 @@ If you want a different language, change the language code by changing the follo
 
 {% filename %}mysite/settings.py{% endfilename %}
 ```python
-LANGUAGE_CODE = 'de-ch'
+LANGUAGE_CODE = 'en-us'
 ```
 
 
-We'll also need to add a path for static files. (We'll find out all about static files and CSS later in the tutorial.) Go down to the *end* of the file, and just underneath the `STATIC_URL` entry, add a new one called `STATIC_ROOT`:
+We need to add a path for static files. 
+(We'll find out all about static files and CSS later in the tutorial.) 
+Go down to the *end* of the file, and just underneath the `STATIC_URL` entry, **add** a new one called `STATIC_ROOT`:
 
 {% filename %}mysite/settings.py{% endfilename %}
 ```python

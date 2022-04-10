@@ -8,6 +8,10 @@ Visual Studio Code is a source code editor developed by Microsoft for Windows, L
 
 [Download it here](https://code.visualstudio.com/)
 
+## PyCharm
+PyCharm is from both Scientific and WebPython development.  It is created by Jet Brains.
+ [Download_it_here](https://www.jetbrains.com/pycharm)
+
 ## Gedit
 
 Gedit is an open-source, free editor, available for all operating systems.
