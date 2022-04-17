@@ -41,7 +41,7 @@ PythonAnywhere want virtual environments to be in a .virtualenv folder.
 Create a .virtualenv folder
 ```
 $ mkdir .virtualenv
-$ cd .virtualent
+$ cd .virtualenv
 ```
 
 
@@ -49,84 +49,16 @@ We will make a virtualenv called `myvenv`. The general command will be in the fo
 
 {% filename %}command-line{% endfilename %}
 ```
-$ python3 -m venv myvenv
-```
-
-
-<!--sec data-title="Virtual environment: Windows" data-id="virtualenv_installation_windows"
-data-collapse=true ces-->
-
-To create a new `virtualenv`, you need to open the command prompt and run `python -m venv myvenv`. It will look like this:
-
-{% filename %}command-line{% endfilename %}
-```
-C:\Users\Name\djangogirls> python -m venv myvenv
-```
-
-Where `myvenv` is the name of your `virtualenv`. You can use any other name, but stick to lowercase and use no spaces, accents or special characters. It is also a good idea to keep the name short – you'll be referencing it a lot!
-
-<!--endsec-->
-
-<!--sec data-title="Virtual environment: Linux and OS X" data-id="virtualenv_installation_linuxosx"
-data-collapse=true ces-->
-
-We can create a `virtualenv` on both Linux and OS X by running `python3 -m venv myvenv`.
-It will look like this:
-
-{% filename %}command-line{% endfilename %}
-```
-$ python3 -m venv myvenv
+$ python -m venv myvenv
 ```
 
 `myvenv` is the name of your `virtualenv`. You can use any other name, but stick to lowercase and use no spaces. It is also a good idea to keep the name short as you'll be referencing it a lot!
 
-> __NOTE:__ On some versions of Debian/Ubuntu you may receive the following error:
-
->{% filename %}command-line{% endfilename %}
->```
->The virtual environment was not created successfully because ensurepip is not available.  On Debian/Ubuntu systems, you need to install the python3-venv package using the following command.
->    apt install python3-venv
->You may need to use sudo with that command.  After installing the python3-venv package, recreate your virtual environment.
->```
->
-> In this case, follow the instructions above and install the `python3-venv` package:
->{% filename %}command-line{% endfilename %}
->```
->$ sudo apt install python3-venv
->```
-
-> __NOTE:__ On some versions of Debian/Ubuntu initiating the virtual environment like this currently gives the following error:
-
->{% filename %}command-line{% endfilename %}
->```
->Error: Command '['/home/eddie/Slask/tmp/venv/bin/python3', '-Im', 'ensurepip', '--upgrade', '--default-pip']' returned non-zero exit status 1
->```
-
-> To get around this, use the `virtualenv` command instead.
-
->{% filename %}command-line{% endfilename %}
->```
->$ sudo apt install python-virtualenv
->$ virtualenv --python=python{{ book.py_version }} myvenv
->```
-
-> __NOTE:__ If you get an error like
-
->{% filename %}command-line{% endfilename %}
->```
->E: Unable to locate package python3-venv
->```
-
-> then instead run:
->
->{% filename %}command-line{% endfilename %}
->```
->sudo apt install python{{ book.py_version }}-venv
->```
-
-<!--endsec-->
 
 ## Working with virtualenv
+
+PythonAnywhere will automatically activate your virtualenv.  But, we need to set that up, which we will do next. 
+These instructions are for if you are working on your machine.  We are going to skip this!
 
 The command above will create a directory called `myvenv` (or whatever name you chose) that contains our 
 virtual environment (basically a bunch of directories and files).
@@ -191,7 +123,7 @@ When working within a virtual environment, `python` will automatically refer to 
 
 OK, we have all important dependencies in place. We can finally install Django!
 
-```bash```
+
 
 ## Installing Django {#django}
 
@@ -211,8 +143,16 @@ A requirements file keeps a list of dependencies to be installed using
 
 **First:** Create a `requirements.txt` file inside of the `djangogirls/` folder, 
 using the code editor that you installed earlier. 
-You do this by opening a new file in the code editor and then saving it 
+
+You do this by typing... 
+
+```bash
+touch requirements.txt
+```
+
+or opening a new file in the code editor and then saving it 
 as `requirements.txt` in the `djangogirls/` folder. Your directory will look like this:
+
 
 ```
 djangogirls
@@ -221,7 +161,14 @@ djangogirls
 └───requirements.txt
 ```
 
-**Second:** Add the following in your `djangogirls/requirements.txt` file:
+**Second:** 
+
+Open the requirements.txt files by,
+```bash
+nano requirements.txt
+````
+
+Add the following in your `djangogirls/requirements.txt` file:
 
 {% filename %}djangogirls/requirements.txt{% endfilename %}
 ```
@@ -267,3 +214,14 @@ data-collapse=true ces-->
 <!--endsec-->
 
 That's it! You're now (finally) ready to create a Django application!
+
+### Set PythonAnywhere's Virtualenv.
+
+We need to tell PythonAnywhere where our virtual env is when it host's our website.
+
+First, go to the `Dashboard`,
+* Click Web
+* Scroll to `Virtualenv`
+* Type, /home/yourusername/.virtualenv
+
+That's it!

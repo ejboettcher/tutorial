@@ -5,6 +5,12 @@
 > Part of this chapter is based on tutorials by Geek Girls Carrots (https://github.com/ggcarrots/django-carrots).
 
 Let's write some code!
+First, Log onto PythonAnywhere.
+* Click `New console` $bash
+  * bash is a linux terminal shell
+  
+Congratulation!  You can now program in the CLOUD now.  Let's start programing in Python!
+ 
 
 ## Python prompt
 
@@ -18,7 +24,7 @@ We want to open up a Python console, so type in `python` on Windows or `python3`
 
 {% filename %}command-line{% endfilename %}
 ```
-$ python3
+$ python
 Python {{ book.py_release }} (...)
 Type "help", "copyright", "credits" or "license" for more information.
 >>>

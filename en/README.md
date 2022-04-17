@@ -36,7 +36,15 @@ OK, [let's start at the beginning…](./how_the_internet_works/README.md)
 
 ## Following the tutorial at home
 
-It is amazing to take part in a Django Girls workshop, but we are aware that it is not always possible to attend one. This is why we encourage you to try following this tutorial at home. For readers at home, we are currently preparing videos that will make it easier to follow the tutorial on your own. It is still a work in progress, but more and more things will be covered soon at the [Coding is for girls](https://www.youtube.com/channel/UC0hNd2uW8jTR5K3KBzRuG2A/feed) YouTube channel.
+First! This tutorial is a bit different than the [Django Girls Tutorial](https://tutorial.djangogirls.org/en/).
+The Dayton version, does **everything** in PythonAnywhere.  And they use `nano` to do all of the editing of files. 
+The original django girls tutorial has you do everything on your machine, `push` up to GitHub and `pull` into PythonAnywhere.
+We are simplifying the steps to doing everything in PythonAnywhere. 
+
+It is amazing to take part in a Django Girls workshop, but we are aware that it is not always possible to attend one. 
+This is why we encourage you to try following this tutorial at home. 
+For readers at home, we are currently preparing videos that will make it easier to follow the tutorial on your own. 
+It is still a work in progress, but more and more things will be covered soon at the [Coding is for girls](https://www.youtube.com/channel/UC0hNd2uW8jTR5K3KBzRuG2A/feed) YouTube channel.
 
 In every chapter already covered, there is a link that points to the correct video.
 

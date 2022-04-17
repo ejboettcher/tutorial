@@ -12,6 +12,14 @@ Visual Studio Code is a source code editor developed by Microsoft for Windows, L
 PyCharm is from both Scientific and WebPython development.  It is created by Jet Brains.
  [Download_it_here](https://www.jetbrains.com/pycharm)
 
+## Nano
+nano is an open-source, free editor, already on Ubuntu machines.  Also available on PythonAnywhere **without** installing.
+
+## Vi, Vim and Emac
+Standard for Linux file editors.  These have a learning curve, but are very powerful.  
+Also available on PythonAnywhere WITHOUT installing.
+
+
 ## Gedit
 
 Gedit is an open-source, free editor, available for all operating systems.
