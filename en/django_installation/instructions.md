@@ -49,7 +49,7 @@ We will make a virtualenv called `myvenv`. The general command will be in the fo
 
 {% filename %}command-line{% endfilename %}
 ```
-$ python -m venv myvenv
+virtualenv --python=python3.8 myvenv
 ```
 
 `myvenv` is the name of your `virtualenv`. You can use any other name, but stick to lowercase and use no spaces. It is also a good idea to keep the name short as you'll be referencing it a lot!
