@@ -37,18 +37,18 @@ $ cd djangogirls
 
 ### If working out of PythonAnywhere:
 We will be working from your PythonAnywhere's HOME directory.
-PythonAnywhere want virtual environments to be in a .virtualenv folder.
-Create a .virtualenv folder
+PythonAnywhere want virtual environments to be in a .virtualenvs folder.
+
 ```
-$ mkdir .virtualenv
-$ cd .virtualenv
+mkvirtualenv --python=python3.8 <username>.pythonanywhere.com 
+python manage.py collectstatic
 ```
 
-
-We will make a virtualenv called `myvenv`. The general command will be in the format:
+We will make a virtualenv called `.virtualenvs/<username>.pythonanywhere.com`. The general command will be in the format:
 
 {% filename %}command-line{% endfilename %}
-```
+
+```bash
 virtualenv --python=python3.8 myvenv
 ```
 
