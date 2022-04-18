@@ -46,6 +46,12 @@ python manage.py collectstatic
 
 We will make a virtualenv called `.virtualenvs/<username>.pythonanywhere.com`. The general command will be in the format:
 
+
+To activate this environment. 
+```bash 
+workon <username>.pythonanywhere.com
+```
+
 {% filename %}command-line{% endfilename %}
 
 ```bash
