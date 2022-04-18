@@ -7,13 +7,49 @@ is copyrighted by Markus Zapke-Gründemann et al.
 
 ## PythonAnywhere
 We are going to be building our Django Website directly on [PythonAnywhere](https://www.pythonanywhere.com/).
-You can follow along on your own computer, push to GitHub and then pull to PythonAnywhere.  
+Typically one works on their own computer,  `push`es to GitHub and then `pull`s to PythonAnywhere / server site.
+This  work flow is what the most programmers follow.  
 
-This  work flow is what the most programmers follow.  But, you can do everything in PythonAnywhere AND all of our steps area 
+But, you can do everything in PythonAnywhere AND all of our steps area 
 already saved in this tutorial so you can go back anytime and re-build your site!
+Plus, it has automated all of the steps below!
 
-PythonAnywhere is Linux based.  So we will follow the Linux instructions.
 
+### PythonAnywhere Website creation
+
+Go to PythonAnywhere's website and click **Web**
+![dashboard](images/pythonanywhere_dashboard.png)
+
+Now click **next.**
+![dashboard](images/pythonanywhere_domain.png)
+
+Click **Django**
+![dashboard](images/pythonanywhere_framework.png)
+
+
+Click Python 3.8 or 3.9
+![dashboard](images/pythonanywhere_python.png)
+
+Under Project name, you can put anything you want.
+* iamsoawesome
+* badassdjangosite
+* mysite
+* djangogirls
+Then click next.
+![dashboard](images/pythonanywhere_quickstart.png)
+
+You site is building!  Congratulations.  
+But wait, there is not much there and I do not know how to add my blogs!
+We will get to that next.
+
+Go to **Your first Django project** if you just built via pythonanywhere.
+
+Else, follow the instructions below if building on your own computer/system.
+
+
+------------------------------------------------------------
+
+## If working on your own system/ computer.
 
 ## Virtual environment
 
@@ -51,14 +87,6 @@ To activate this environment.
 ```bash 
 workon <username>.pythonanywhere.com
 ```
-
-{% filename %}command-line{% endfilename %}
-
-```bash
-virtualenv --python=python3.8 myvenv
-```
-
-`myvenv` is the name of your `virtualenv`. You can use any other name, but stick to lowercase and use no spaces. It is also a good idea to keep the name short as you'll be referencing it a lot!
 
 
 ## Working with virtualenv
@@ -221,13 +249,14 @@ data-collapse=true ces-->
 
 That's it! You're now (finally) ready to create a Django application!
 
-### Set PythonAnywhere's Virtualenv.
+### Check PythonAnywhere's Virtualenv.
 
-We need to tell PythonAnywhere where our virtual env is when it host's our website.
+Let's double check our virtualenv in PythonAnywhere.
 
 First, go to the `Dashboard`,
 * Click Web
 * Scroll to `Virtualenv`
-* Type, /home/yourusername/.virtualenv
 
 That's it!
+
+If this is the first time you are using pythonanywhere, we need to tell it we want a website.  

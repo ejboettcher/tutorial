@@ -1,10 +1,13 @@
 # Let’s start with Python
 
-We're finally here!
 
 But first, let us tell you what Python is. Python is a very popular programming language that can be used for creating websites, games, scientific software, graphics, and much, much more.
 
-Python originated in the late 1980s and its main goal is to be readable by human beings (not only machines!). This is why it looks simpler than other programming languages, but don't worry – Python is also really powerful!
+Python originated in the late 1980s and its main goal is to be readable by human beings (not only machines!). 
+This is why it looks simpler than other programming languages, but don't worry – Python is also really powerful!
+
+We are going to skip the python installation since it is already installed on PythonAnywhere.  
+In fact, python is usually already installed on most computers.
 
 # Python installation
 

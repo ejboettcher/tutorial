@@ -1,10 +1,13 @@
 
 # Working within PythonAnywhere!
 
-This is why Dayton is doing everything in PythonAnywhere.  
-We only need to create a PythonAnywhere account!
-We are going to skip **installation** this, but if you want to work on your machine then these are the steps you need to follow.
-BUT, we do need to create virtualenv.
+Why is Dayton doing everything in PythonAnywhere?
+  
+We only need to create a PythonAnywhere account!  
+PythonAnywhere has already created a quick start that will launch our first site.  
+It already has python installed and an editor!
+We can skip the **installation**, but if you want to work on your machine then these are the steps you need to follow.
+
 
 ----------------------------------
 

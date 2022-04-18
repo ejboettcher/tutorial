@@ -22,10 +22,16 @@ Django needs to maintain a certain structure to be able to find important things
 `source myvenv/bin/activate` on Mac OS X or Linux will do this for you.
 >
 
-In PythonAnywhere's bash console/
+
+## If you are working in solely in PythonAnywhere
+
+In PythonAnywhere's bash console type:
+
+```bash
+ls
 ```
-(myvenv) ~/djangogirls$ django-admin startproject mysite .
-```
+
+Look! The quickstart created a folder with the project name you chose (eg. mysite, djangogirls etc.)
 
 <!--sec data-title="Create project: OS X or Linux" data-id="django_start_project_OSX_Linux" data-collapse=true ces-->
 
@@ -194,13 +200,6 @@ Let's set up access to our site.
 python manage.py createsuperuser 
 ```
 
-### If running on Pythonanywhere
-
-First left tell pythonanywhere where our static files are.
-Type:
-```bash
-python manage.py collectstatic
-```
 
 Congratulation, your site is up!  Let's find where.
 
