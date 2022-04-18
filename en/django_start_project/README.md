@@ -195,7 +195,15 @@ python manage.py createsuperuser
 ```
 
 ### If running on Pythonanywhere
+
+First left tell pythonanywhere where our static files are.
+Type:
+```bash
+python manage.py collectstatic
+```
+
 Congratulation, your site is up!  Let's find where.
+
 
 Go do the `Dashboard`
 * Click `Web`

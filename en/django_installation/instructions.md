@@ -41,7 +41,7 @@ PythonAnywhere want virtual environments to be in a .virtualenvs folder.
 
 ```
 mkvirtualenv --python=python3.8 <username>.pythonanywhere.com 
-python manage.py collectstatic
+
 ```
 
 We will make a virtualenv called `.virtualenvs/<username>.pythonanywhere.com`. The general command will be in the format:
