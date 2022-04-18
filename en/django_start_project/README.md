@@ -202,6 +202,10 @@ Go do the `Dashboard`
 * Click `Reload username.pythonanywhere.com`
 * Click `username.pythonanywhere.com`
 
+Congratulations! You've just created your first website and run it using a web server! Isn't that awesome!
+
+![Install worked!](images/install_worked.png)
+
 A lot of things could have gone wrong.  So take a deep breath and ask for help if your site is not up.
 
 ### If running on your own machine.
