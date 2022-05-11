@@ -7,15 +7,15 @@ is copyrighted by Markus Zapke-Gründemann et al.
 
 ## PythonAnywhere
 We are going to be building our Django Website directly on [PythonAnywhere](https://www.pythonanywhere.com/).
-Typically one works on their own computer,  `push`es to GitHub and then `pull`s to PythonAnywhere / server site.
-This  work flow is what the most programmers follow.  
+Typically one works on their own computer, `push`-es to GitHub and then `pull`-s to PythonAnywhere / server site.
+That is the work flow most programmers follow.  
 
 But, you can do everything in PythonAnywhere AND all of our steps area 
-already saved in this tutorial so you can go back anytime and re-build your site!
-Plus, it has automated all of the steps below!
+already saved in this tutorial! So you can go back anytime and re-build your site!
+Plus, Pythonanywhere has automated all of the steps below!  
 
 
-### PythonAnywhere Website creation
+### PythonAnywhere Quick Start Website creation
 
 Go to PythonAnywhere's website and click **Web**
 ![dashboard](images/pythonanywhere_dashboard.png)
@@ -35,6 +35,7 @@ Under Project name, you can put anything you want.
 * badassdjangosite
 * mysite
 * djangogirls
+
 Then click next.
 ![dashboard](images/pythonanywhere_quickstart.png)
 

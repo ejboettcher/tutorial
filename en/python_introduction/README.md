@@ -4,12 +4,14 @@
 
 > Part of this chapter is based on tutorials by Geek Girls Carrots (https://github.com/ggcarrots/django-carrots).
 
+## PythonAnywhere's command line
+
 Let's write some code!
 First, Log onto PythonAnywhere.
 * Click `New console` $bash
   * bash is a linux terminal shell
   
-Congratulation!  You can now program in the CLOUD now.  Let's start programing in Python!
+Congratulation!  You can now program in the CLOUD.  Let's start programing in Python!
  
 
 ## Python prompt

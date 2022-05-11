@@ -138,6 +138,17 @@ Your file should now look like this:
 </html>
 ```
 
+
+> Pythonanywhere Quick Start:
+
+> NOTE If you built using the quick start you need to refresh to static files.
+  Type the following in your bash console
+
+> python manage.py collectstatic
+
+
+
+
 OK, save the file and refresh the site!
 
 ![Figure 14.2](images/color2.png)
@@ -312,6 +323,17 @@ in the `blog/templates/blog/post_list.html` with this:
     </div>
 </main>
 ```
+
+
+> Pythonanywhere Quick Start:
+
+> NOTE If you built using the quick start you need to refresh to static files.
+  Type the following in your bash console
+
+> python manage.py collectstatic
+
+
+
 
 Save those files and refresh your website.
 

@@ -4,9 +4,13 @@
 Why is Dayton doing everything in PythonAnywhere?
   
 We only need to create a PythonAnywhere account!  
-PythonAnywhere has already created a quick start that will launch our first site.  
-It already has python installed and an editor!
-We can skip the **installation**, but if you want to work on your machine then these are the steps you need to follow.
+PythonAnywhere has:
+* Django quick start that will launch our first site.  
+* Linux command line interface, with Nano
+* GUI Editor
+* GUI Folder
+
+Because of this, we can skip the **Installation**, but if you want to work on your machine then these are the steps you need to follow.
 
 
 ----------------------------------

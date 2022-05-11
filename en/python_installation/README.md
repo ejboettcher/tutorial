@@ -6,12 +6,15 @@ But first, let us tell you what Python is. Python is a very popular programming 
 Python originated in the late 1980s and its main goal is to be readable by human beings (not only machines!). 
 This is why it looks simpler than other programming languages, but don't worry – Python is also really powerful!
 
-We are going to skip the python installation since it is already installed on PythonAnywhere.  
-In fact, python is usually already installed on most computers.
+We are going to **skip the python installation** since it is already installed on PythonAnywhere.  
+
+In fact, python is usually already installed on most computers.  But, if it is not on your machine and you want it then follow the instructions below.
 
 # Python installation
 
 > **Note** If you're using a Chromebook, skip this chapter and make sure you follow the [Chromebook Setup](../chromebook_setup/README.md) instructions.
+
+> **Note** If you are using PythonAnywhere then it is already installed. Yeah!
 
 > **Note** If you already worked through the [installation steps](../installation/README.md), there's no need to do this again – you can skip straight ahead to the next chapter!
 

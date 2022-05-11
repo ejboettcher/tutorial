@@ -1,5 +1,36 @@
 # Deploy!
 
+## PythonAnywhere Quick Start:
+If you used the pythonanywhere quick start you only need to create a superuser.
+
+
+We need to initialize the admin account with `createsuperuser`:
+
+{% filename %}PythonAnywhere command-line{% endfilename %}
+```
+(ola.pythonanywhere.com) $ python manage.py createsuperuser
+```
+
+Type in the details for your admin user.  Best to use the same ones as you're using on your own computer to avoid any confusion, unless you want to make the password on PythonAnywhere more secure.
+
+Now, if you like, you can also take a look at your code on PythonAnywhere using `ls`:
+
+{% filename %}PythonAnywhere command-line{% endfilename %}
+```
+(ola.pythonanywhere.com) $ ls
+blog  db.sqlite3  manage.py  mysite requirements.txt static
+(ola.pythonanywhere.com) $ ls blog/
+__init__.py  __pycache__  admin.py  apps.py  migrations  models.py
+tests.py  views.py
+```
+
+### You are now live!
+Your site should now be live on the public Internet! Click through to the PythonAnywhere "Web" page to get a link to it. You can share this with anyone you want. :)
+
+We can skip everything below since we built on Pythonanywhere.
+
+## Django build your computer
+
 > **Note** The following chapter can be sometimes a bit hard to get through. Persist and finish it; deployment is an important part of the website development process. This chapter is placed in the middle of the tutorial so that your mentor can help with the slightly trickier process of getting your website online. This means you can still finish the tutorial on your own if you run out of time.
 
 Until now, your website was only available on your computer.  Now you will learn how to deploy it! Deploying is the process of publishing your application on the Internet so people can finally go and see your app. :)

@@ -10,18 +10,17 @@ Visual Studio Code is a source code editor developed by Microsoft for Windows, L
 
 ## PyCharm
 PyCharm is from both Scientific and WebPython development.  It is created by Jet Brains.
- [Download_it_here](https://www.jetbrains.com/pycharm)
+
+[Download it here](https://www.jetbrains.com/pycharm)
 
 ## Nano
-nano is an open-source, free editor, already on Ubuntu machines.  Also available on PythonAnywhere **without** installing.
+nano is an open-source, free editor, already on Ubuntu machines.  Also available on PythonAnywhere **without** installing.  Simplye type `nano` on the command line.
 
 ## Vi, Vim and Emac
 Standard for Linux file editors.  These have a learning curve, but are very powerful.  
 Also available on PythonAnywhere WITHOUT installing.
 
-
 ## Gedit
-
 Gedit is an open-source, free editor, available for all operating systems.
 
 [Download it here](https://wiki.gnome.org/Apps/Gedit#Download)
@@ -38,6 +37,14 @@ Sublime Text is a very popular editor with a free evaluation period and it's ava
 Atom is another popular editor. It's free, open-source and available for Windows, OS X and Linux. Atom is developed by [GitHub](https://github.com/).
 
 [Download it here](https://atom.io/)
+
+## PythonAnywhere
+From the dashboard click on "Files"
+![Pythonanywhere Files](images/pythonanywhere_files.png)
+
+Then click on the file you want to edit.  An online editor will appear.
+
+![Pythonanywhere Editor](images/pythonanywhere_editor.png)
 
 
 ## Why are we installing a code editor?
